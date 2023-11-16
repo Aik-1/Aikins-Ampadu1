@@ -1,0 +1,15 @@
+import andriodx.appcompat.app.AppCompatActivity;
+import andriod.os.Bundle;
+import andriod.widget.Textview;
+
+public class MainActivity extends AppCompatActivity {
+@Override
+protected void onCreate(BundlesavedInstanceState) {
+
+super.onCreate(savedInstanceState);
+
+TextView textView = new TextView(this);
+textView.setText("Hello World!");
+setContentView(textView);
+}
+}
